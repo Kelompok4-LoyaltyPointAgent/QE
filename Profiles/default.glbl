@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNmYzA2NWEyLTlmMGItNGQ0Zi1hZTljLWVlNTA2NTQxM2Y0OSIsInJvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTE5NDU4OX0.hF11luVOnEnvhoRFTM-UpOwgIuU7jn8PisJpkKdVtHE'</initValue>
+      <name>globalVar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://loyaltypointagent-staging-7vx5k3vnra-uc.a.run.app'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DD321'</initValue>
+      <name>user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DD321@gmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin@example.com'</initValue>
+      <name>emailadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>admin</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
