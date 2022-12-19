@@ -6,7 +6,7 @@
    <elementGuidId>d2a5256a-56ae-468a-82dc-a4222c6dadfd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -24,9 +24,9 @@
       <webElementGuid>0d2448d6-a567-43e0-a5fb-e62a581d8340</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
+   <restRequestMethod>DELETE</restRequestMethod>
    <restUrl>https://loyaltypointagent-staging-7vx5k3vnra-uc.a.run.app/api/v1/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -34,7 +34,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

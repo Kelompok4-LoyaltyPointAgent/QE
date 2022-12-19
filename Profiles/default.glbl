@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNmYzA2NWEyLTlmMGItNGQ0Zi1hZTljLWVlNTA2NTQxM2Y0OSIsInJvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTE5NDU4OX0.hF11luVOnEnvhoRFTM-UpOwgIuU7jn8PisJpkKdVtHE'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNmYzA2NWEyLTlmMGItNGQ0Zi1hZTljLWVlNTA2NTQxM2Y0OSIsInJvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTUxNzcwM30.zcGFz6zhUh0_6_YEQbArl4t_U7abrpp4iChsaZ-y-KY'</initValue>
       <name>globalVar</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,5 +33,20 @@
       <description></description>
       <initValue>'admin'</initValue>
       <name>admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'amarah@example.com'</initValue>
+      <name>EmailReg</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'amaradzolam'</initValue>
+      <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'amarah@321'</initValue>
+      <name>Pwreg</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

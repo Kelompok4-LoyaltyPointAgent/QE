@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Auth/Post Login/Login'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('Auth/Post Login/Login - Admin'), FailureHandling.CONTINUE_ON_FAILURE)
 
 JsonSlurper slurper = new JsonSlurper()
 
@@ -36,15 +36,11 @@ response = WS.sendRequest(findTestObject('Credits/Get/Get_Credits_Id'))
 
 WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
 
-//response = WS.sendRequest(findTestObject('Credits/Post/Create_Credits'))
-//
-//WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
-//
-//response = WS.sendRequest(findTestObject('null'))
-//
-//WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
-//
-//response = WS.sendRequest(findTestObject('Credits/Get/Get_Credits'))
-//
-//WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
-//
+response = WS.sendRequest(findTestObject('Credits/Get/Get_Credits-negative01'))
+
+WS.verifyResponseStatusCode(response, 404, FailureHandling.CONTINUE_ON_FAILURE)
+
+response = WS.sendRequest(findTestObject('Credits/Get/Get_Credits-negative02'))
+
+WS.verifyResponseStatusCode(response, 404, FailureHandling.CONTINUE_ON_FAILURE)
+

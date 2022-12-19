@@ -19,25 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 response = WS.sendRequest(findTestObject('Auth/Post Register/Register'))
 
-WS.verifyResponseStatusCode(findTestObject(null), 200, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative01'))
 
-WS.verifyResponseStatusCode(findTestObject(null), 400, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative02'))
 
-WS.verifyResponseStatusCode(findTestObject(null), 400, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative04'))
 
-WS.verifyResponseStatusCode(findTestObject(null), 400, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative05'))
 
-WS.verifyResponseStatusCode(findTestObject(null), 400, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative06'))
 
-WS.verifyResponseStatusCode(findTestObject(null), 400, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
+
+response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative07'))
+
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
+
+response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative08'))
+
+WS.verifyResponseStatusCode(response, 404, FailureHandling.CONTINUE_ON_FAILURE)
+
+response = WS.sendRequest(findTestObject('Auth/Post Register/Register - negative09'))
+
+WS.verifyResponseStatusCode(response, 405, FailureHandling.CONTINUE_ON_FAILURE)
 

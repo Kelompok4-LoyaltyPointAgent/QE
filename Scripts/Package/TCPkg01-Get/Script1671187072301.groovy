@@ -39,7 +39,7 @@ response = WS.sendRequest(findTestObject('Package/Post/Create_Packages'))
 
 WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 
-response = WS.sendRequest(findTestObject('Package/Put/Update_Packages'))
+response = WS.sendRequest(findTestObject('null'))
 
 WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 

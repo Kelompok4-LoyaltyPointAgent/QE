@@ -16,14 +16,14 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer ${GlobalVariable.globalVar}</value>
-      <webElementGuid>40789468-0664-4931-8c95-38008e7b4022</webElementGuid>
+      <value>Bearer ${globalVar}</value>
+      <webElementGuid>6647fd27-5f6c-4404-9b19-c67bdad6d1a4</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/api/v1/products/credits/7a492cdd-595e-4454-9ae1-e17b501a2862</restUrl>
+   <restUrl>${GlobalVariable.url}/api/v1/products/credits/ffd71cce-aa90-43ba-9a2d-cb37ad434aba</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
