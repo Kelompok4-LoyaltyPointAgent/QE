@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCTr02-Post</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62ee8d89-bea3-4c3f-837a-268db45333e5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.globalVar</defaultValue>
+      <description></description>
+      <id>bb3cd1d5-08c4-44c6-bc04-c3d290e46cd5</id>
+      <masked>false</masked>
+      <name>globalVar</name>
+   </variable>
+   <variable>
+      <defaultValue>'${GlobalVariable.globalVar}'</defaultValue>
+      <description></description>
+      <id>09b94d81-f462-4706-801a-265934338eb0</id>
+      <masked>false</masked>
+      <name>Token</name>
+   </variable>
+</TestCaseEntity>
