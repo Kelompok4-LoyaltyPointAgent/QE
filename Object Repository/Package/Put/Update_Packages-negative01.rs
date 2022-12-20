@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Create_Packages</name>
+   <name>Update_Packages-negative01</name>
    <tag></tag>
    <elementGuidId>d345f857-6af0-49fb-b2ce-0f92fff01f6d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -150,7 +150,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://loyaltypointagent-staging-7vx5k3vnra-uc.a.run.app/api/v1/products/packages/cb078dd9-05fc-4a20-b84d-8d54f374210f</restUrl>
+   <restUrl>https://loyaltypointagent-staging-7vx5k3vnra-uc.a.run.app/api/v1/products/packages</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

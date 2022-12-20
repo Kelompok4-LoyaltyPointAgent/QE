@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Create_Transaction - negative1</name>
+   <name>Create_Transaction - negative01</name>
    <tag></tag>
    <elementGuidId>eb7ef9cd-fab0-4cba-9f28-a5c2302c611a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;product_id\&quot;: \&quot;b3be259b-680b-460f-968e-c52101e93b5d\&quot;,\n  \&quot;user_id\&quot;: \&quot;f6152747-2ba6-4fd4-8346-892d58fa3588\&quot;,\n  \&quot;amount\&quot;: 10000,\n  \&quot;method\&quot;: \&quot;BCA\&quot;,\n  \&quot;number\&quot;: \&quot;087874699446\&quot;,\n  \&quot;email\&quot;: \&quot;ahmad@gmail.com\&quot;,\n  \&quot;status\&quot;: \&quot;Pending\&quot;,\n  \&quot;type\&quot;: \&quot;Purchase\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;product_id\&quot;: \&quot;b3be259b-680b-460f-968e-c52101e93b5d\&quot;,\n  \&quot;user_id\&quot;: \&quot;f6152747-2ba6-4fd4-8346-892d58fa3588\&quot;,\n  \&quot;amount\&quot;: 10000,\n  \&quot;method\&quot;: \&quot;BCA\&quot;,\n  ,\n  \&quot;email\&quot;: \&quot;ahmad@gmail.com\&quot;,\n  \&quot;status\&quot;: \&quot;Pending\&quot;,\n  \&quot;type\&quot;: \&quot;Purchase\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
