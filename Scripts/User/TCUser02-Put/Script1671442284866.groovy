@@ -16,4 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
+
+response = WS.sendRequest(findTestObject('Auth/Post Login/Login - Admin'), FailureHandling.CONTINUE_ON_FAILURE)
+
+JsonSlurper slurper = new JsonSlurper()
+
+Map parsedJson = slurper.parseText(response.getResponseText())
+
+String Token = parsedJson.data.token
+
+GlobalVariable.globalVar = Token
+
+response = WS.sendRequest(findTestObject('User/Put/Update_User_id'))
+
+WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
+
+response = WS.sendRequest(findTestObject('User/Put/Update_Users-negative01'))
+
+WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 

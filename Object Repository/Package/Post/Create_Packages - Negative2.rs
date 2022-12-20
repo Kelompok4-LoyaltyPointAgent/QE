@@ -20,7 +20,7 @@
       &quot;contentType&quot;: &quot;&quot;
     },
     {
-      &quot;name&quot;: &quot;provider&quot;,
+      &quot;name&quot;: &quot;providere&quot;,
       &quot;value&quot;: &quot;XL&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
@@ -80,7 +80,7 @@
       &quot;contentType&quot;: &quot;&quot;
     },
     {
-      &quot;name&quot;: &quot;active_period&quot;,
+      &quot;name&quot;: &quot;active_periode&quot;,
       &quot;value&quot;: &quot;30&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;

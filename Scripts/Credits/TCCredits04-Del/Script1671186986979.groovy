@@ -28,13 +28,7 @@ String Token = parsedJson.data.token
 
 GlobalVariable.globalVar = Token
 
-response = WS.sendRequest(findTestObject('Credits/Delete/Delete_Credits'))
+response = WS.sendRequest(findTestObject('Transaction/Delete/Delete_Transaction'))
 
 WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
-
-response = WS.sendRequest(findTestObject('Credits/Delete/Delete_Credits-negative01'))
-
-WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
-
-
 

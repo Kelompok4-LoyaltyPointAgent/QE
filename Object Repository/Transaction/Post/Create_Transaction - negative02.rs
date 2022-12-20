@@ -34,7 +34,7 @@
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
+   <restRequestMethod>DELETE</restRequestMethod>
    <restUrl>${GlobalVariable.url}/api/v1/transactions</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>

@@ -16,8 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Auth/Post Login/Login'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('Auth/Post Login/Login - Admin'), FailureHandling.CONTINUE_ON_FAILURE)
 
 JsonSlurper slurper = new JsonSlurper()
 
@@ -33,17 +34,9 @@ WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('User/Get/Get_Users_Id'))
 
-WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
+WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
 
 response = WS.sendRequest(findTestObject('User/Get/Get_User_Profile'))
-
-WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
-
-response = WS.sendRequest(findTestObject('null'))
-
-WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
-
-response = WS.sendRequest(findTestObject('User/Put/Update_User_id'))
 
 WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 

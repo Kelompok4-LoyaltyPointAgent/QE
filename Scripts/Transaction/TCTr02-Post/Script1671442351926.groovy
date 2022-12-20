@@ -32,7 +32,7 @@ response = WS.sendRequest(findTestObject('Transaction/Post/Create_Transaction'))
 
 WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
 
-response = WS.sendRequest(findTestObject('Transaction/Post/Create_Transaction - negative1'))
+response = WS.sendRequest(findTestObject('Transaction/Post/Create_Transaction - negative01'))
 
 WS.verifyResponseStatusCode(response, 400, FailureHandling.CONTINUE_ON_FAILURE)
 
