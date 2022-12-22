@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('Auth/Post Login/Login'))
+response = WS.sendRequest(findTestObject('Auth/Post Login/Login - Admin'))
 
 WS.verifyResponseStatusCode(response, 200, FailureHandling.CONTINUE_ON_FAILURE)
 

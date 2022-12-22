@@ -23,7 +23,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://loyaltypointagent-staging-7vx5k3vnra-uc.a.run.app/api/v1/products/credits/b3be259b-680b-460f-968e-c52101e93b5d</restUrl>
+   <restUrl>${GlobalVariable.url}/api/v1/products/credits/b3be259b-680b-460f-968e-c52101e93b5d</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

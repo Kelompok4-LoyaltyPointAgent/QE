@@ -35,7 +35,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/api/v1/transactions</restUrl>
+   <restUrl>${GlobalVariable.url}/api/v1/transactions/910e4606-81a2-4829-a1e4-80342a8afe1f</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
