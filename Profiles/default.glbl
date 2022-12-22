@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://loyaltypointagent-staging-7vx5k3vnra-uc.a.run.app'</initValue>
+      <initValue>'https://loyaltypointagent-7vx5k3vnra-uc.a.run.app'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
